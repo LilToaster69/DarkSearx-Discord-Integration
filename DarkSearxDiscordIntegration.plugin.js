@@ -6,17 +6,18 @@
  * @description Replaces the default Google Text Search with DarkSearx
  * @invite npfZbmSgTT
  * @website https://darktoaster.cc
- * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GoogleSearchReplace/
- * @updateUrl https://mwittrien.github.io/BetterDiscordAddons/Plugins/GoogleSearchReplace/GoogleSearchReplace.plugin.js
+ * @source https://github.com/LilToaster69/DarkSearx-Discord-Integration
+ * @updateUrl https://raw.githubusercontent.com/LilToaster69/DarkSearx-Discord-Integration/master/DarkSearxDiscordIntegration.plugin.js
  */
 
 //Special Thanks to DevilBro
 //Forked from https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GoogleSearchReplace/
+
 module.exports = (_ => {
 	const config = {
 		"info": {
 			"name": "DarkSearx Discord Integration",
-            "author": "DarkToaster",
+           		"author": "DarkToaster",
 			"version": "1.0",
 			"description": "Replaces the default Google Text Search with DarkSearx"
 		}
