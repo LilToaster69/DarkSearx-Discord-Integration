@@ -1,9 +1,9 @@
 /**
- * @name DarkSearxDiscordIntegration
+ * @name DarkSearchDiscordIntegration
  * @author DarkToaster
  * @authorId 266986379446059008
  * @version 1.0
- * @description Replaces the default Google Text Search with DarkSearx
+ * @description Replaces the default Google Text Search with DarkSearch
  * @invite npfZbmSgTT
  * @website https://darktoaster.cc
  * @source https://github.com/LilToaster69/DarkSearx-Discord-Integration
@@ -16,10 +16,10 @@
 module.exports = (_ => {
 	const config = {
 		"info": {
-			"name": "DarkSearx Discord Integration",
+			"name": "DarkSearch Discord Integration",
            		"author": "DarkToaster",
 			"version": "1.0",
-			"description": "Replaces the default Google Text Search with DarkSearx"
+			"description": "Replaces the default Google Text Search with DarkSearch"
 		}
 	};
 	
@@ -69,7 +69,7 @@ module.exports = (_ => {
 				this.defaults = {
 					engines: {
 						_all: 				{value: true, 	name: BDFDB.LanguageUtils.LanguageStrings.FORM_LABEL_ALL, 	url: null},
-						DarkSearx: 			{value: true, 	name: "DarkSearx", 				url: "https://searx.darkly.biz/search?q=" + textUrlReplaceString},
+						DarkSearx: 			{value: true, 	name: "DarkSearx", 				url: "https://search.darkly.biz/search?q=" + textUrlReplaceString},
 					}
 				};
 			}
